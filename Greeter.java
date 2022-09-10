@@ -12,7 +12,7 @@ public class Greeter {
   }
 
   public String sayHello() {
-    ResourceBundle messages = ResourceBundle.getBundle("MessagesBundle", locale);
+    ResourceBundle messages = ResourceBundle.getBundle("MessagesBundle", locae);
     return messages.getString("greeting") + ", " + name;
   }
 
